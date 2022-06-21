@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="testing gorest application" skipped="0" tests="2" time="5.75" timestamp="2022-06-19T15:49:12.137+01:00[Europe/London]"><testcase name="checking the gorest application"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+co.gorest.CURDTest.UsersSteps.getSingleUserInfo(UsersSteps.java:47)&#13;
+co.gorest.cucumber.steps.MyStepdefs.iUpdateTheUserInformationAndVerifyTheUpdatedInformation(MyStepdefs.java:55)&#13;
+✽.And I Update the user information and verify the updated information(src/test/java/resources/featurefile/gorestCucumber.feature:14)&#13;
+</system-err></testcase></testsuite>
